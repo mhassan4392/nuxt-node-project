@@ -1,0 +1,16 @@
+{
+    "app": {
+      "title": "Brand",
+      "favicon": "",
+      "logo": ""
+    },
+    "smtp": {
+      "host": null,
+      "username": null,
+      "email": null,
+      "password": null,
+      "name": null,
+      "port": null,
+      "encryption": ""
+    }
+  }

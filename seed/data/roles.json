@@ -1,0 +1,17 @@
+[
+    {
+        "title": "admin",
+        "slug": "admin",
+        "pagePermissions": []
+    },
+    {
+        "title": "publisher",
+        "slug": "publisher",
+        "pagePermissions": []
+    },
+    {
+        "title": "user",
+        "slug": "user",
+        "pagePermissions": []
+    }
+]

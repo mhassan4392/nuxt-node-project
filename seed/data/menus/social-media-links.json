@@ -1,0 +1,50 @@
+{
+    "title": "social media links",
+    "slug": "social-media-links",
+    "items": [
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [],
+            "active": false,
+            "translation": "",
+            "children": [],
+            "title": "facebook",
+            "icon": "mdi-facebook",
+            "route": "https://facebook.com"
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [],
+            "active": false,
+            "translation": "",
+            "children": [],
+            "title": "instagram",
+            "icon": "mdi-instagram",
+            "route": "https://instagram.com"
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [],
+            "active": false,
+            "translation": "",
+            "children": [],
+            "title": "twitter",
+            "icon": "mdi-twitter",
+            "route": "https://twitter.com"
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [],
+            "active": false,
+            "translation": "",
+            "children": [],
+            "title": "linkedin",
+            "icon": "mdi-linkedin",
+            "route": "https://linkedin.com"
+        }
+    ]
+}

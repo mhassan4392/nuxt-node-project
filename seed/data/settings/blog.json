@@ -1,0 +1,16 @@
+{
+    "reading": {
+      "postLimit": "5",
+      "featurePostLimit": "3"
+    },
+    "layout": {
+      "postCols": 1,
+      "sidebar": true,
+      "header": true
+    },
+    "comments": {
+      "allow": true,
+      "commentsLimit": "5",
+      "repliesLimit": "5"
+    }
+  }

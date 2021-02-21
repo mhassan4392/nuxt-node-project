@@ -1,0 +1,290 @@
+{
+    "title": "dashboard navigation",
+    "slug": "dashboard-navigation",
+    "items": [
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [],
+            "active": false,
+            "translation": "menu.dashboardNavigation.home",
+            "children": [],
+            "title": "Home",
+            "icon": "mdi-home",
+            "route": "/"
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [],
+            "active": false,
+            "translation": "menu.dashboardNavigation.dashboard",
+            "children": [],
+            "title": "Dashboard",
+            "icon": "mdi-cog",
+            "route": "/dashboard"
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [
+                "admin"
+            ],
+            "active": false,
+            "translation": "menu.dashboardNavigation.users",
+            "children": [],
+            "title": "Users",
+            "icon": "mdi-account",
+            "route": "/dashboard/users"
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [
+                "admin"
+            ],
+            "active": false,
+            "translation": "menu.dashboardNavigation.roles",
+            "children": [],
+            "title": "Roles",
+            "icon": "mdi-pencil",
+            "route": "/dashboard/roles"
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [
+                "admin"
+            ],
+            "active": false,
+            "translation": "menu.dashboardNavigation.menus",
+            "children": [],
+            "title": "Menus",
+            "icon": "mdi-shape",
+            "route": "/dashboard/menus"
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [
+                "admin",
+                "publisher"
+            ],
+            "active": false,
+            "translation": "menu.dashboardNavigation.blog",
+            "children": [
+                {
+                    "loggedIn": true,
+                    "loggedOut": true,
+                    "permission": [],
+                    "active": false,
+                    "translation": "menu.dashboardNavigation.posts",
+                    "children": [],
+                    "title": "Posts",
+                    "icon": "mdi-newspaper",
+                    "route": "/dashboard/blog/posts"
+                },
+                {
+                    "loggedIn": true,
+                    "loggedOut": true,
+                    "permission": [],
+                    "active": false,
+                    "translation": "menu.dashboardNavigation.categories",
+                    "children": [],
+                    "title": "Categories",
+                    "icon": "mdi-shape",
+                    "route": "/dashboard/blog/categories"
+                },
+                {
+                    "loggedIn": true,
+                    "loggedOut": true,
+                    "permission": [],
+                    "active": false,
+                    "translation": "menu.dashboardNavigation.tags",
+                    "children": [],
+                    "title": "Tags",
+                    "icon": "mdi-tag",
+                    "route": "/dashboard/blog/tags"
+                }
+            ],
+            "title": "Blog",
+            "icon": "mdi-newspaper",
+            "route": ""
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [
+                "admin"
+            ],
+            "active": false,
+            "translation": "menu.dashboardNavigation.utilities",
+            "children": [
+                {
+                    "loggedIn": true,
+                    "loggedOut": true,
+                    "permission": [],
+                    "active": false,
+                    "translation": "menu.dashboardNavigation.images",
+                    "children": [],
+                    "title": "Images",
+                    "icon": "mdi-image",
+                    "route": "/dashboard/utilities/images"
+                },
+                {
+                    "loggedIn": true,
+                    "loggedOut": true,
+                    "permission": [],
+                    "active": false,
+                    "translation": "menu.dashboardNavigation.icons",
+                    "children": [],
+                    "title": "Icons",
+                    "icon": "mdi-face",
+                    "route": "/dashboard/utilities/icons"
+                },
+                {
+                    "loggedIn": true,
+                    "loggedOut": true,
+                    "permission": [],
+                    "active": false,
+                    "translation": "menu.dashboardNavigation.contacts",
+                    "children": [],
+                    "title": "Contacts",
+                    "icon": "mdi-home",
+                    "route": "/dashboard/utilities/contacts"
+                }
+            ],
+            "title": "Utilities",
+            "icon": "mdi-shape",
+            "route": ""
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [
+                "admin"
+            ],
+            "active": false,
+            "translation": "menu.dashboardNavigation.localization",
+            "children": [
+                {
+                    "loggedIn": true,
+                    "loggedOut": true,
+                    "permission": [],
+                    "active": false,
+                    "translation": "menu.dashboardNavigation.languages",
+                    "children": [],
+                    "title": "Languages",
+                    "icon": "mdi-flag",
+                    "route": "/dashboard/localization/languages"
+                },
+                {
+                    "loggedIn": true,
+                    "loggedOut": true,
+                    "permission": [],
+                    "active": false,
+                    "translation": "menu.dashboardNavigation.translations",
+                    "children": [],
+                    "title": "Translations",
+                    "icon": "mdi-pencil",
+                    "route": "/dashboard/localization/translations"
+                }
+            ],
+            "title": "Localization",
+            "icon": "mdi-flag",
+            "route": ""
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [
+                "admin"
+            ],
+            "active": false,
+            "translation": "menu.dashboardNavigation.subscribers",
+            "children": [],
+            "title": "Newsletter",
+            "icon": "mdi-email",
+            "route": "/dashboard/newsletter"
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [
+                "admin"
+            ],
+            "active": false,
+            "translation": "menu.dashboardNavigation.inquiries",
+            "children": [],
+            "title": "Inquiries",
+            "icon": "mdi-message",
+            "route": "/dashboard/inquiries"
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [
+                "admin"
+            ],
+            "active": false,
+            "translation": "menu.dashboardNavigation.settings",
+            "title": "Settings",
+            "icon": "mdi-cog",
+            "route": "",
+            "children": [
+                {
+                    "loggedIn": true,
+                    "loggedOut": true,
+                    "permission": [
+                        "admin"
+                    ],
+                    "active": false,
+                    "translation": "menu.dashboardNavigation.addSettings",
+                    "title": "Add Settings",
+                    "icon": "mdi-plus",
+                    "route": "/dashboard/settings/add",
+                    "children": []
+                },
+                {
+                    "loggedIn": true,
+                    "loggedOut": true,
+                    "permission": [
+                        "admin"
+                    ],
+                    "active": false,
+                    "translation": "menu.dashboardNavigation.appSettings",
+                    "title": "App",
+                    "icon": "mdi-cog",
+                    "route": "/dashboard/settings/app",
+                    "children": []
+                },
+                {
+                    "loggedIn": true,
+                    "loggedOut": true,
+                    "permission": [
+                        "admin"
+                    ],
+                    "active": false,
+                    "translation": "menu.dashboardNavigation.themeSettings",
+                    "title": "Theme",
+                    "icon": "mdi-pencil",
+                    "route": "/dashboard/settings/theme",
+                    "children": []
+                },
+                {
+                    "loggedIn": true,
+                    "loggedOut": true,
+                    "permission": [
+                        "admin"
+                    ],
+                    "active": false,
+                    "translation": "menu.dashboardNavigation.blogSettings",
+                    "title": "Blog",
+                    "icon": "mdi-newspaper",
+                    "route": "/dashboard/settings/blog",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

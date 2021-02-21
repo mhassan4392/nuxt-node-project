@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/blog", (function(a,b){return {data:[{},{}],fetch:[],mutations:[[a,{option:"blog.posts",value:b}],[a,{option:"blog.featuredPosts",value:b}],[a,{option:"blog.categories",value:b}],[a,{option:"blog.tags",value:b}]]}}("loading\u002FSET_LOADING",true)));

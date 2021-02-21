@@ -1,0 +1,88 @@
+{
+    "title": "home",
+    "slug": "home",
+    "items": [
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [],
+            "active": false,
+            "translation": "menu.home.home",
+            "children": [],
+            "title": "Home",
+            "icon": "mdi-home",
+            "route": "/"
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [],
+            "active": false,
+            "translation": "menu.home.about",
+            "children": [],
+            "title": "About",
+            "icon": "mdi-account",
+            "route": "/about"
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [],
+            "active": false,
+            "translation": "menu.home.blog",
+            "children": [],
+            "title": "Blog",
+            "icon": "mdi-newspaper",
+            "route": "/blog"
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": true,
+            "permission": [],
+            "active": false,
+            "translation": "menu.home.contact",
+            "children": [],
+            "title": "Contact",
+            "icon": "mdi-phone",
+            "route": "/contact"
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": false,
+            "permission": [
+                "publisher",
+                "admin"
+            ],
+            "active": false,
+            "translation": "menu.home.dashboard",
+            "children": [],
+            "title": "Dashboard",
+            "icon": "mdi-cog",
+            "route": "/dashboard"
+        },
+        {
+            "loggedIn": false,
+            "loggedOut": true,
+            "permission": [],
+            "active": false,
+            "translation": "menu.home.login",
+            "children": [],
+            "title": "Login",
+            "icon": "mdi-logout",
+            "route": "/auth/login"
+        },
+        {
+            "loggedIn": true,
+            "loggedOut": false,
+            "permission": [
+                "user"
+            ],
+            "active": false,
+            "translation": "menu.home.logout",
+            "children": [],
+            "title": "Logout",
+            "icon": "mdi-logout",
+            "route": "/auth/logout"
+        }
+    ]
+}
